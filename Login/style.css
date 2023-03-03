@@ -11,7 +11,7 @@ body {
 	width: 100%;
  }
 .login-box, .signup-box{
-	width: 400px;
+	width: 380px;
 	margin: auto;
 	background: #f695f1;
 	padding: 20px;
@@ -26,7 +26,7 @@ h2{
 
 input[type="text"], input[type="email"]{
 	background-color: rgb(255, 225, 255);
-	width: 381px;
+	width: 350px;
 	padding: 12px;
 	border-radius: 5px;
 	border: none;
@@ -37,7 +37,7 @@ input[type="text"], input[type="email"]{
 	
 }
 input[type="password"]{
-	width: 381px;
+	width: 350px;
 	padding: 12px;
 	border-radius: 5px;
 	border:none;

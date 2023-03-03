@@ -28,20 +28,19 @@ function validateSignupForm(){
         validator= false;
         
     }
-    console.log(validator);
+ 
     if(email.value == ""){
         validator= false;
     }
-    console.log(validator);
+ 
     if(!strongPassword.test(password.value)){
         password.style.boxShadow ="0px 2px 0px  rgba(255, 24, 24, 0.6)";
         password.style.border ="2px solid red";
         pass_err.style.display = "block";
         validator =  false;    
     }
-    console.log(validator);
+
     if(validator){
-        alert("Submission Sucessful")
         return true;
     }
     else{return false;}

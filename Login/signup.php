@@ -6,10 +6,10 @@
     <script src="validation.js"></script>
 </head>
 <body>
-   
+    
 	<div class="signup-box">
 		<h2>Sign Up Here</h2>
-		<form name = "signupForm" action="signup.php" method="POST" onsubmit="return validateSignupForm()">
+		<form name = "signupForm" action="signup_validation.php" method="POST" onsubmit="return validateSignupForm()" target="_blank">
 			<p>Username:</p>
 			<input type="text" name="username" id="username" value ="" placeholder="Enter Username">
 			<p id="username_err">Username cannot be empty</p>
